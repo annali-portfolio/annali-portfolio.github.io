@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    max-width: 1250px;
+    margin: auto;
+}
+header{
+    background-color: darkblue;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+.twoleft{
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    grid-area: twoleft;
+}
+.tworight{
+    background-image: url(../../Images/lars-blankers-B0s3Xndk6tw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: tworight;
+    height: 270px;
+}
+.threeleft{
+    border: 1px solid black;
+    background-color: lightskyblue;
+    grid-area: threeleft;
+    padding: 10px;
+    align-items: center;
+}
+.threemiddle{
+    background-image: url(../../Images/franco-antonio-giovanella-Cm6GGegbcoU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: threemiddle;
+}
+.threeright{
+    border: 1px solid black;
+    background-color: lightskyblue;
+    padding: 10px;
+    grid-area: threeright;
+}
+img {
+    float: right;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: Arial;
+    color: white;
+    font-size: 40px;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-areas:
+        "twoleft twoleft twoleft tworight tworight tworight"
+        "threeleft threeleft threemiddle threemiddle threeright threeright";
+}
+
+
+
+

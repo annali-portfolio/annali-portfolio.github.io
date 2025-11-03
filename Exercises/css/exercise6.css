@@ -1,0 +1,22 @@
+h1 {
+    color: #ffffff;
+    background-color: #006272;
+    padding: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'Shizuru', cursive;
+}
+p {
+    line-height: 1.6em;
+    font-family: “Courier New”, Courier, monospace;
+}
+a:visited {
+    color:#ff0000;
+}
+a:hover {
+    color:#945830;
+    text-decoration:underline;
+}
+a:active {
+    color: beige;
+}

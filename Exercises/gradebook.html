@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Calculator</title>
+  <link rel="stylesheet" href="css/gradebookCSS.css">
+</head>
+
+<body>
+
+  <header> Anna Li </header>
+        <nav>
+            <ul class="navgrid">
+                <li class="navlinks"> <a class="navtext" href="index.html">About Me</a></li>
+                <li class="navlinks"> <a class="navtext" href="resume.html">Resume</a></li>
+                <li class="navlinks"> <a class="navtext" href="writing.html">Writing</a></li>
+                <li class="navlinks"> <a class="navtext" href="programming.html">Programming</a></li>
+                <li class="navlinks"> <a class="navtext" href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+
+    <br>
+    <br>
+  
+    <main>
+    
+    <div id="gradebook">
+        <div id="enterGrades">
+            <p>Enter Exam 1 grade: </p>
+            <input id="exam1" type="number">
+            <input id="dropExam1" type="checkbox"> Drop this exam
+            
+            <p>Enter Exam 2 grade: </p>
+            <input id="exam2" type="number">
+            <input id="dropExam2" type="checkbox"> Drop this exam
+            
+            <p>Enter Exam 3 grade: </p>
+            <input id="exam3" type="number">
+            <input id="dropExam3" type="checkbox"> Drop this exam
+            
+            <p>Enter Exam 4 grade: </p>
+            <input id="exam4" type="number">
+            <input id="dropExam4" type="checkbox"> Drop this exam
+            
+            <p>What percent of your final grade are exams? Enter the number without the % symbol:</p> 
+            <input id="examPercent" type="number">
+            
+            <p>Enter Assignment A grade: </p>
+            <input id="assignmentA" type="number">
+            
+            <p>Enter Assignment B grade: </p>
+            <input id="assignmentB" type="number">
+            
+            <p>Enter Assignment C grade: </p>
+            <input id="assignmentC" type="number">
+            
+            <p>What percent of your final grade are assignments? Enter the number without the % symbol:</p> 
+            <input id="assignmentPercent" type="number">
+        </div>
+
+        <br>
+      
+        <div id="button">
+            <button onclick="calculate()">Calculate final grade</button>
+        </div>
+        
+        <p>Your final grade: </p> 
+        <input id="display" type="text" readonly>
+         
+    </div>
+
+    <script src="gradebookJS.js"></script>
+    </main>
+
+      
+</body>
+</html>
+
+
+
