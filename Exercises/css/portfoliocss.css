@@ -159,7 +159,7 @@ a.button:active {
     border-width: 1px;
     border-color: lightgray;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 .biochem{
@@ -210,6 +210,7 @@ img{
     background-color: white;
     padding: 20px;
 }
+
 
 
 
